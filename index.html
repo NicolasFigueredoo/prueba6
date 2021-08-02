@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/html.png" type="image/x-icon">i
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./assets/index.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <header>
+      <nav class="pagnav navbar fixed-top navbar-expand-lg navbar-dark  " >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Nicolas Figueredo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#sobreminav">Sobre mi</a>
+              <a class="nav-link" href="#Herramientas">Herramientas</a>
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </div>
+          
+    
+        </div>
+      </nav>
+ 
+      <div class="header">
+        <h1>Hola Mi Nombre es <p id="name">"Nicolas Figueredo"</p></h1>
+
+        <img id="foto" src="./assets/img/3657969.png" alt="#">
+      </div>
+ 
+    </header>
+
+<main>
+   <div id="sobreminav" class="sobremi">
+    <div class="sobremitext">
+      <h2>Sobre mi</h2>
+      <p id="texto"> me encuentro viviendo en Argentina (Bs, As)
+        en la localidad de florencio Varela. Tengo 18 años,
+        Me caracterizo por ser una persona efectiva para aprender,
+        Estoy constantemente trabajando para desarollar de la mejor
+        manera mi futuro, No pierdo ni un segundo de mi vida.
+        Actualmente me encuentro estudiando Ingenieria Informatica,
+        En la Universidad Nacional Arturo Juaretche (Unaj), por otro
+        lado estoy estudiando ingles y Haciendo cursos de programacion
+        Tambien para agregar tengo bases de diseño como photoshop
+        y illustrator</p>
+      <a id="cvlink" target="_blank" href="./assets/cv/Nicolás Figueredo (1).pdf"><button id="cv" class="d-flex btn btn-primary ">Curriculum</button></a>
+    </div>  
+  </div>
+
+<div id="Herramientas" class="Herramientas">
+ <h3> Herramientas</h3>
+    <div class="imagenes">
+      <i id="html" class="fab fa-html5"></i>
+      <i id="css" class="fab fa-css3-alt"></i>
+      <i id="js" class="fab fa-js"></i>
+      <i id="boot" class="fab fa-bootstrap"></i>
+      <i id="git" class="fab fa-git-alt"></i>
+      <i id="python" class="fab fa-python"></i>
+    </div>
+    <div class="experiencia">
+      <p>Avanzado</p>
+      <p>Avanzado</p>
+      <p>Intermedio</p>
+      <p>Avanzado</p>
+      <p>Basico</p>
+      <p>Basico</p>
+
+    </div>
+</div>
+
+<div id="proyectos" class="portfolio">
+  <h4>Proyectos</h4>
+  
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+
+  <div class="col">
+    <div class="card">
+      <div class="contenedor">
+        <figure>
+          <img src="./assets/img/nikeproyect.jpg" class="h card-img-top" alt="#">
+          <div class="capa">
+            <p id="title">Proyecto - Tienda nike</p>
+            <p>Pagin web En curso</p>
+        </div>
+         </figure>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Copia de Tienda Nike</h5>
+        <p class="card-text">En este sitio podras comprar productos de nike solo es un proyecto.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="https://nicolasfigueredoo.github.io/nikeproyect/" target="_blank"><button>Probar</button></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="col">
+      <div class="card">
+        <div class="contenedor">
+          <figure>
+            <img src="./assets/img/Sin título.png" class="h card-img-top" alt="#">
+            <div class="capa">
+              <p id="title">Nightdrive - Tienda</p>
+              <p>Pagina Web en curso</p>
+          </div>
+           </figure>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Nightdrive</h5>
+          <p class="card-text">Nightdrive es un grupo de personas aficionadas por los autos japones, crearon un emprendimiento de vender calcomanias, decidieron llevarlo al entorno virtual
+            creamos esta pagina para una vista profesional y poder llegar a mas partes del mundo.
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://nightdrive.000webhostapp.com/#"  target="_blank"><button>Probar</button></a>
+          <a href="https://github.com/NicolasFigueredoo/nightdrive"  target="_blank"><button>Code</button></a>
+        </div>
+      </div>
+
+      
+
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="contenedor">
+          <figure>
+            <img src="./assets/img/creador de lineas.png" class="h card-img-top" alt="#">
+            <div class="capa">
+              <p id="title">Proyecto - Dibuja con el mouse</p>
+              <p>JavaScript</p>
+          </div>
+           </figure>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Dibujo</h5>
+          <p class="card-text">En este sitio podras dibujar lo que quieras, podras elegir el ancho de tu brocha y el color.
+            
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://nicolasfigueredoo.github.io/holaque/" target="_blank"><button>Probar</button></a>
+          <a href="https://github.com/NicolasFigueredoo/holaque" target="_blank"><button>Code</button></a>          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="contenedor">
+          <figure>
+            <img src="./assets/img/creador de lineas .png" class="h card-img-top" alt="#">
+            <div class="capa">
+              <p id="title">Proyecto - Creador de Lineas</p>
+              <p>JavaScript</p>
+          </div>
+           </figure>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Creador de lineas</h5>
+          <p class="card-text">En este sitio hice un codigo en cual podes poner el numero de lineas que quieres que aparezca sobre el lienzo</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://nicolasfigueredoo.github.io/tutorial-paghes/" target="_blank"><button>Probar</button></a>
+          <a href="https://github.com/NicolasFigueredoo/tutorial-paghes"  target="_blank"><button>Code</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="contenedor">
+          <figure>
+            <img src="./assets/img/planetas .png" class="h card-img-top" alt="#">
+            <div class="capa">
+              <p id="title">Proyecto - Calculadora de peso</p>
+              <p>JavaScript</p>
+          </div>
+           </figure>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Tu peso en otro planeta</h5>
+          <p class="card-text">En este sitio podras Calcular tu penso en otro planeta como en Jupiter o Martes.
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://nicolasfigueredoo.github.io/planet/" target="_blank"><button>Probar</button></a>
+          <a href="https://github.com/NicolasFigueredoo/planet"  target="_blank"><button>Code</button></a>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+  <section id="contacto" class="contacto d-flex justify-content-center">
+    <div class="car card col-sm-6 p-3 text-white"> 
+        
+        <div class="mb-2">
+            <form action="./assets/php/enviar.php" method="POST">
+                <div class="mb-2">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control"  name="nombre" id="nombre" placeholder="Ej:nicolas" required>
+                    
+                </div>
+                <div class="mb-2">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ej:figueredo" required>
+                </div>
+                <div class="mb-2">
+                    <label for="correo">Correo:</label>
+                    <input type="text" class="form-control" name="correo" id="correo" placeholder="Ej:example@hotmail.com" required>
+                </div>
+            </div>
+            <div class="mb-2">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" class="form-control" id="mensaje" required></textarea>
+            </div>
+            
+            <div class="mb-2">
+            <input id="hola" type="submit" value="Enviar" id="enviar"  class="btn btn-primary">
+            </div>
+            </form>
+        </div>
+    </div>
+ </section>
+</main>
+<footer>
+  <div class="redes">
+    
+    
+    <a href="www.linkedin.com/in/Nicolasfigueredo"><i class="git fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/NicolasFigueredoo"><i class="git fab fa-github"></i></a>
+    <p id="telefono">Tel: 1150483561</p>
+    <p id="telefono">Email: Gtyt@outlook.com.ar</p>
+
+  </div>
+   
+
+</footer>
+
+  </body>
+</html>
